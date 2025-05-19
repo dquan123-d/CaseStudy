@@ -1,7 +1,7 @@
- <?php
- $conn=new mysqli('localhost','root','');
- if($conn->connect_error){
- die('Ketnoithatbai:'.$conn->connect_error);
- }
- echo'Ketnoithanhcong';
- ?>
+<?php
+$conn = new mysqli('localhost', 'root', '', 'casestudy_db');
+if ($conn->connect_error) {
+    die('Kết nối thất bại: ' . $conn->connect_error);
+}
+// echo 'Kết nối thành công';
+?>
